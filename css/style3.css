@@ -1,0 +1,211 @@
+body {
+    background-color: #7bc043;
+}
+
+#hexbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 227.84px;
+    height: 218.56px;
+}
+
+.hexagon {
+    position: absolute;
+    width: 69.28px;
+    height: 40px;
+    background-color: #fdf498;
+}
+
+.hexagon:before, .hexagon:after {
+    content: "";
+    position: absolute;
+    border-left: 34.64px solid transparent;
+    border-right: 34.64px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+}
+
+.hexagon:after {
+    top: 100%;
+}
+
+#hex_1 {
+    top: 20.64px;
+    left: 39.64px;
+    -webkit-animation: hexAnime 3s ease-in-out infinite;
+        -ms-animation: hexAnime 3s ease-in-out infinite;
+            animation: hexAnime 3s ease-in-out infinite;
+    -webkit-animation-delay: 0.21429s;
+        -ms-animation-delay: 0.21429s;
+            animation-delay: 0.21429s;
+}
+
+#hex_1:before {
+    border-bottom: 20px solid #fdf498;
+}
+
+#hex_1:after {
+    border-top: 20px solid #fdf498;
+}
+
+#hex_2 {
+    top: 20.64px;
+    right: 39.64px;
+    -webkit-animation: hexAnime 3s ease-in-out infinite;
+        -ms-animation: hexAnime 3s ease-in-out infinite;
+            animation: hexAnime 3s ease-in-out infinite;
+    -webkit-animation-delay: 0.42857s;
+        -ms-animation-delay: 0.42857s;
+            animation-delay: 0.42857s;
+}
+
+#hex_2:before {
+    border-bottom: 20px solid #fdf498;
+}
+
+#hex_2:after {
+    border-top: 20px solid #fdf498;
+}
+
+#hex_3 {
+    top: 89.28px;
+    right: 0;
+    -webkit-animation: hexAnime 3s ease-in-out infinite;
+        -ms-animation: hexAnime 3s ease-in-out infinite;
+            animation: hexAnime 3s ease-in-out infinite;
+    -webkit-animation-delay: 0.64286s;
+        -ms-animation-delay: 0.64286s;
+            animation-delay: 0.64286s;
+}
+
+#hex_3:before {
+    border-bottom: 20px solid #fdf498;
+}
+
+#hex_3:after {
+    border-top: 20px solid #fdf498;
+}
+
+#hex_4 {
+    top: 157.92px;
+    right: 39.64px;
+    -webkit-animation: hexAnime 3s ease-in-out infinite;
+        -ms-animation: hexAnime 3s ease-in-out infinite;
+            animation: hexAnime 3s ease-in-out infinite;
+    -webkit-animation-delay: 0.85714s;
+        -ms-animation-delay: 0.85714s;
+            animation-delay: 0.85714s;
+}
+
+#hex_4:before {
+    border-bottom: 20px solid #fdf498;
+}
+
+#hex_4:after {
+    border-top: 20px solid #fdf498;
+}
+
+#hex_5 {
+    top: 157.92px;
+    left: 39.64px;
+    -webkit-animation: hexAnime 3s ease-in-out infinite;
+        -ms-animation: hexAnime 3s ease-in-out infinite;
+            animation: hexAnime 3s ease-in-out infinite;
+    -webkit-animation-delay: 1.07143s;
+        -ms-animation-delay: 1.07143s;
+            animation-delay: 1.07143s;
+}
+
+#hex_5:before {
+    border-bottom: 20px solid #fdf498;
+}
+
+#hex_5:after {
+    border-top: 20px solid #fdf498;
+}
+
+#hex_6 {
+    top: 89.28px;
+    left: 0;
+    -webkit-animation: hexAnime 3s ease-in-out infinite;
+        -ms-animation: hexAnime 3s ease-in-out infinite;
+            animation: hexAnime 3s ease-in-out infinite;
+    -webkit-animation-delay: 1.28571s;
+        -ms-animation-delay: 1.28571s;
+            animation-delay: 1.28571s;
+}
+
+#hex_6:before {
+    border-bottom: 20px solid #fdf498;
+}
+
+#hex_6:after {
+    border-top: 20px solid #fdf498;
+}
+
+#hex_7 {
+    top: 89.28px;
+    left: 80.28px;
+    -webkit-animation: hexAnime 3s ease-in-out infinite;
+        -ms-animation: hexAnime 3s ease-in-out infinite;
+            animation: hexAnime 3s ease-in-out infinite;
+    -webkit-animation-delay: 1.5s;
+        -ms-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+
+#hex_7:before {
+    border-bottom: 20px solid #fdf498;
+}
+
+#hex_7:after {
+    border-top: 20px solid #fdf498;
+}
+
+@-webkit-keyframes hexAnime {
+    0% {
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+        opacity: 1;
+    }
+    15%, 50% {
+        -webkit-transform: scale(0.5);
+            -ms-transform: scale(0.5);
+                transform: scale(0.5);
+        opacity: 0;
+    }
+    65% {
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes hexAnime {
+    0% {
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+        opacity: 1;
+    }
+    15%, 50% {
+        -webkit-transform: scale(0.5);
+            -ms-transform: scale(0.5);
+                transform: scale(0.5);
+        opacity: 0;
+    }
+    65% {
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+        opacity: 1;
+    }
+}

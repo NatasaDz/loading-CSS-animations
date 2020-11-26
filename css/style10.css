@@ -1,0 +1,108 @@
+body {
+    background: #E74C3C;
+}
+
+#wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 90px;
+    height: 90px;
+}
+
+span {
+    width: 30px;
+    height: 30px;
+    -webkit-animation: pulse 1.5s infinite;
+        -ms-animation: pulse 1.5s infinite;
+            animation: pulse 1.5s infinite;
+}
+
+.a {
+    -webkit-animation-delay: -0.9s;
+        -ms-animation-delay: -0.9s;
+            animation-delay: -0.9s;
+    background: #FFF;
+    margin-top: -0.3px;
+    margin-right: -0.3px;
+}
+
+.b {
+    -webkit-animation-delay: -0.8s;
+        -ms-animation-delay: -0.8s;
+            animation-delay: -0.8s;
+    background: #FFF;
+    margin-top: -0.3px;
+    margin-right: -0.3px;
+}
+
+.c {
+    -webkit-animation-delay: -0.7s;
+        -ms-animation-delay: -0.7s;
+            animation-delay: -0.7s;
+    background: #FFF;
+    margin-top: -0.3px;
+    margin-right: -0.3px;
+}
+
+.d {
+    -webkit-animation-delay: -0.6s;
+        -ms-animation-delay: -0.6s;
+            animation-delay: -0.6s;
+    background: #FFF;
+    margin-top: -0.3px;
+    margin-right: -0.3px;
+}
+
+.e {
+    -webkit-animation-delay: -0.5s;
+        -ms-animation-delay: -0.5s;
+            animation-delay: -0.5s;
+    background: #FFF;
+    margin-top: -0.3px;
+    margin-right: -0.3px;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+    }
+    15% {
+        -webkit-transform: scale(0);
+            -ms-transform: scale(0);
+                transform: scale(0);
+    }
+    60% {
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+    }
+    30% {
+        -webkit-transform: scale(0);
+            -ms-transform: scale(0);
+                transform: scale(0);
+    }
+    70% {
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+    }
+}

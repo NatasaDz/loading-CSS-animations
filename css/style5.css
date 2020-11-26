@@ -1,0 +1,136 @@
+body {
+    background-color: #FFF;
+}
+
+#circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    margin: -25px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 46px 46px 0 #e74c3c,
+                -46px 46px 0 #E7CC3C,
+                46px -46px 0 #53369F,
+                -46px -46px 0 #2DAF4A,
+                0 -66px 0 #2D6994,
+                0 66px 0 #E79D3C,
+                66px 0 0 #BB317C,
+                -66px 0 0 #A0D738;
+    -webkit-animation: animate 6s infinite;
+        -ms-animation: animate 6s infinite;
+            animation: animate 6s infinite;
+}
+
+@-webkit-keyframes animate {
+    0% {
+        box-shadow: 0 0 0 #e74c3c,
+                    0 0 0 #E7CC3C,
+                    0 0 0 #53369F,
+                    0 0 0 #2DAF4A,
+                    0 0 0 #2D6994,
+                    0 0 0 #E79D3C,
+                    0 0 0 #BB317C,
+                    0 0 0 #A0D738;
+        -webkit-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    25% {
+        box-shadow: 46px 46px 0 #e74c3c,
+                    -46px 46px 0 #E7CC3C,
+                    46px -46px 0 #53369F,
+                    -46px -46px 0 #2DAF4A,
+                    0 -66px 0 #2D6994,
+                    0 66px 0 #E79D3C,
+                    66px 0 0 #BB317C,
+                    -66px 0 0 #A0D738;
+        -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+    75% {
+        box-shadow: 46px 46px 0 #e74c3c,
+                    -46px 46px 0 #E7CC3C,
+                    46px -46px 0 #53369F,
+                    -46px -46px 0 #2DAF4A,
+                    0 -66px 0 #2D6994,
+                    0 66px 0 #E79D3C,
+                    66px 0 0 #BB317C,
+                    -66px 0 0 #A0D738;
+        -webkit-transform: rotate(720deg);
+            -ms-transform: rotate(720deg);
+                transform: rotate(720deg);
+    }
+    100% {
+        box-shadow: 0 0 0 #e74c3c,
+                    0 0 0 #E7CC3C,
+                    0 0 0 #53369F,
+                    0 0 0 #2DAF4A,
+                    0 0 0 #2D6994,
+                    0 0 0 #E79D3C,
+                    0 0 0 #BB317C,
+                    0 0 0 #A0D738;
+        -webkit-transform: rotate(1080deg);
+            -ms-transform: rotate(1080deg);
+                transform: rotate(1080deg);
+    }
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 #e74c3c,
+                    0 0 0 #E7CC3C,
+                    0 0 0 #53369F,
+                    0 0 0 #2DAF4A,
+                    0 0 0 #2D6994,
+                    0 0 0 #E79D3C,
+                    0 0 0 #BB317C,
+                    0 0 0 #A0D738;
+        -webkit-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    25% {
+        box-shadow: 46px 46px 0 #e74c3c,
+                    -46px 46px 0 #E7CC3C,
+                    46px -46px 0 #53369F,
+                    -46px -46px 0 #2DAF4A,
+                    0 -66px 0 #2D6994,
+                    0 66px 0 #E79D3C,
+                    66px 0 0 #BB317C,
+                    -66px 0 0 #A0D738;
+        -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+    75% {
+        box-shadow: 46px 46px 0 #e74c3c,
+                    -46px 46px 0 #E7CC3C,
+                    46px -46px 0 #53369F,
+                    -46px -46px 0 #2DAF4A,
+                    0 -66px 0 #2D6994,
+                    0 66px 0 #E79D3C,
+                    66px 0 0 #BB317C,
+                    -66px 0 0 #A0D738;
+        -webkit-transform: rotate(720deg);
+            -ms-transform: rotate(720deg);
+                transform: rotate(720deg);
+    }
+    100% {
+        box-shadow: 0 0 0 #e74c3c,
+                    0 0 0 #E7CC3C,
+                    0 0 0 #53369F,
+                    0 0 0 #2DAF4A,
+                    0 0 0 #2D6994,
+                    0 0 0 #E79D3C,
+                    0 0 0 #BB317C,
+                    0 0 0 #A0D738;
+        -webkit-transform: rotate(1080deg);
+            -ms-transform: rotate(1080deg);
+                transform: rotate(1080deg);
+    }
+}
